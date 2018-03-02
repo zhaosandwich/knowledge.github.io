@@ -40,4 +40,20 @@
     #definition function, compare result: None
 ````
 
-##
+##默认参数
+```angular2html
+    print('----------默认参数-----------')
+    def demoParamter(a, b, c='ok'):
+        if c == 'ok':
+            print('default parameter effect')
+        else :
+            print('input a={},b={},c={}'.format(a, b, c))
+        return c
+    
+    demoParamter('inputA', 'inputB', 'inputC')
+    
+    demoParamter('inputA', 'inputB')
+    
+   注：定义的函数要在调用的前面，程序是顺序执行，定义与调用顺序不同会出现问题
+
+```
