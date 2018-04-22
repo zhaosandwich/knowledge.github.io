@@ -11,12 +11,12 @@
 # 	print(x)
 
 #--------------------reduce用法--------------------
-# from functools import reduce
-# print('reduce用法')
-# def functionReduce(x, y):
-# 	return x + y
+from functools import reduce
+print('reduce用法')
+def functionReduce(x, y):
+	return x * y
 
-# print(reduce(functionReduce, [1,2,3,4,4,5]))
+print(reduce(functionReduce, [1,2,3,4,4,5]))
 
 #--------------------filter用法--------------------
 # print('filter用法')

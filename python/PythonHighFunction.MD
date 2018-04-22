@@ -3,7 +3,7 @@
 map/reduce
 
 - map           
-入参是function、Iterable,返回Iterable
+第一个入参是function、第二个参数是Iterable,返回Iterable
 
 ```angularjs
     #map
@@ -22,8 +22,10 @@ map/reduce
   不用传参数:functionMap(val)
 ```
 
-- reduce        
-入参数function、Iterable,将结果累积，再与下一个序列做运算
+- reduce     
+第一个入参是function、第二个参数是Iterable,返回值 ，、
+Iterable,将结果累积，再与下一个序列做运算，function函数是累加就加，
+相减则与序列下一个数相减
 ```angularjs
     from functools import reduce
     print('reduce用法')
@@ -78,7 +80,8 @@ map/reduce
     
     print(now())
     #@log放到了now的上方，相当于执行了now = log(now)
-```
+```    
+
 
 
 
