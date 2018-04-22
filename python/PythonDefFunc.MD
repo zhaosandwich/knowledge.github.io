@@ -18,8 +18,7 @@
   print ++++++
   None
   =========================分割线=========================
-  has val return
-  4
+  has val return 4
 ```
 
 ##空处理
@@ -35,6 +34,15 @@
  None
 ```
 
-##返回值(Tuple)
+##返回值
+- 单个值
+
+- 多个值(Tuple)
+```angularjs
+    def move(x, y, step, angle=0):
+        nx = x + step * math.cos(angle)
+        ny = y - step * math.sin(angle)
+        return nx, ny
+```
 
 
