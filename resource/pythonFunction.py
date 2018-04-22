@@ -14,4 +14,26 @@ def compare (a, b) :
 		print(' a <= b. a=%s,b=%s'%(a,b))
 
 print('definition function, compare result:',compare(9, 10))
-#definition function, compare result: None
+definition function, compare result: None
+
+
+
+#默认参数
+print('----------默认参数-----------')
+def demoParamter(a, b, c='ok'):
+	if c == 'ok':
+		print('default parameter effect')
+	else :
+		print('input a={},b={},c={}'.format(a, b, c))
+	return c
+
+demoParamter('inputA', 'inputB', 'inputC')
+
+demoParamter('inputA', 'inputB')
+
+
+
+
+
+
+	
