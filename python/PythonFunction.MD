@@ -1,4 +1,4 @@
-#函数
+#4.函数
 ##help
 对函数用法的解释            
 ````angular2html
@@ -35,7 +35,6 @@
     		print(' a > b. a=%s,b=%s'%(a, b))
     	else :
     		print(' a <= b. a=%s,b=%s'%(a,b))
-    
     print('definition function, compare result:',compare(9, 10))
     #definition function, compare result: None
 ````

@@ -1,4 +1,4 @@
-#集合
+#3.集合
 ##List集合
 - 增加        
 ![](pic/collection-add.png)

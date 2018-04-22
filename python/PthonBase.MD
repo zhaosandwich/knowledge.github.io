@@ -1,4 +1,4 @@
-#基础语法
+#1.基础语法
 ##例子
 ![](pic/demoExample.png)
 
